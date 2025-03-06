@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rajdhani", sans-serif;
+}
+body{
+    background: rgb(204, 204, 204);
+}
+.page{
+    background-color: #fff;
+    display: block;
+    padding: 2rem 4rem;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
+.page[size="A4"]{
+    width: 21cm;
+    height: 29.7cm;
+    overflow: hidden;
+}
+.header{
+    display: flex;
+    padding: 0 1.3rem;
+    justify-content: space-between;
+}
+.header .logo{
+    display: flex;
+    /* border: 1px solid; */
+    /* flex-direction: column; */
+    gap: 10px;
+    align-items: center;
+}
+.header .logo h1{
+    font-family: "Inter Tight", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.header .logo h4{
+    font-weight: 300;
+    font-family: "Inter Tight", sans-serif;
+    letter-spacing: 7px;
+}
+.page hr{
+    margin: 29px 0;
+}
+.data-cust{
+    margin-top: 50px;
+    padding: 0 1.3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.data-cust h1{
+    font-family: "Rajdhani", sans-serif;
+    /* color: #0074e5; */
+    font-weight: 600;
+    font-size: 2.3rem;
+}
+.data-cust p{
+    font-weight: 500;
+}
+.cust{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    /* border: 1px solid; */
+    width: auto;
+    /* margin-right: 90px; */
+}
+.cust h1, p{
+    margin-left: 8px;
+}
+/* .info h1{
+    margin-left: 8px;
+} */
+.info{
+    display: flex;
+    align-items: center;
+    text-align: right;
+    gap: 10px;
+    /* border: 1px solid; */
+    width: 40%;
+}
+.tbl{
+    position: relative;
+}
+table{
+    width: 100%;
+    color: #fff;
+    margin: 60px 0;
+    border-collapse: collapse;
+    border-radius: 6px;
+    overflow: hidden;
+}
+table tr{
+    padding: 1rem;
+}
+table tr th{
+    padding: 1rem;
+    font-family: "Inter Tight", sans-serif;
+    background-color: #000;
+}
+table tr th:nth-child(2){
+    width: 70%;
+}
+table tr td{
+    color: #000;
+    font-weight: 500;
+    padding: 1rem;
+    border: 1px solid;
+    font-size: 1.16rem;
+    text-align: center;
+}
+table tr td:nth-child(2){
+    text-align: left;
+}
+.total{
+    position: absolute;
+    right: 0;
+    bottom: -120px;
+    width: auto;
+    /* border: 1px solid; */
+}
+.ket{
+    display: flex;
+    padding: 6px 0;
+}
+.ket .txt{
+    width: 300px;
+    text-align: right;
+    padding-right: 14px;
+}
+.ket .nilai{
+    /* background-color: antiquewhite; */
+    width: 123px;
+    text-align: center;
+}
+.ket .nilai h3{
+    font-weight: 500;
+}
+.foot{
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+}
